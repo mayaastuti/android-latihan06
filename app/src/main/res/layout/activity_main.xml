@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/ivDts"
+        android:src="@drawable/dts"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/tvDtsTitle"
+        android:text="DIGITAL TALENT SCHOLARSHIP"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/ivDts"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/tvPoliban"
+        android:text="POLITEKNIK NEGERI BAMJARMASIN"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/tvTahun"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+     <TextView
+         android:id="@+id/tvTahun"
+         android:text="2019"
+         android:textColor="#000"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:gravity="center_horizontal"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         tools:ignore="HardcodeText,HardcodedText" />
+</RelativeLayout>
